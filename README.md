@@ -1,6 +1,6 @@
 # HH.ru Job Notifier Bot
 
-A simple Telegram bot written in Go that connects to the [HH.ru API](https://api.hh.ru/) and notifies users about new job vacancies matching their CV or job preferences.
+A simple Telegram bot written in Go that connects to the [HH.ru API](https://api.hh.ru/) and notifies users about new job vacancies matching their CV.
 
 ---
 
@@ -36,8 +36,7 @@ Create a `.env` file:
 
 ```env
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-HH_CLIENT_ID=your_hh_client_id
-HH_CLIENT_SECRET=your_hh_client_secret
+HH_API_KEY=your_hh_client_secret
 ```
 
 > Get your HH developer credentials at: [https://dev.hh.ru ](https://dev.hh.ru )
