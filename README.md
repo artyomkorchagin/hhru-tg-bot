@@ -13,7 +13,7 @@ This bot allows users to:
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Go 1.20+**
 - **Telegram Bot API**
@@ -21,7 +21,7 @@ This bot allows users to:
 
 ---
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -53,14 +53,14 @@ go build -o hhrujobsforyou
 
 ---
 
-## 📋 Available Commands
+## Available Commands
 
 - `/start` – Start the bot
 
 ---
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
