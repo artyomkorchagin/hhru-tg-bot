@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 
+	"github.com/artyomkorchagin/hhru-tg-bot/internal/storage/sqlite"
 	bot "github.com/artyomkorchagin/hhru-tg-bot/internal/tg-bot"
 	"github.com/joho/godotenv"
 )
@@ -14,5 +15,6 @@ func init() {
 }
 
 func main() {
+	sqlite.InitSqliteDB()
 	bot.InitBot()
 }
