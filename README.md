@@ -47,7 +47,7 @@ HH_API_KEY=your_hh_client_secret
 
 ```bash
 go mod tidy
-go build -o hhrujobsforyou
+go build -o hhrujobsforyou ./cmd
 ./hhrujobsforyou
 ```
 
