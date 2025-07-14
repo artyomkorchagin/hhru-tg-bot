@@ -26,8 +26,8 @@ This bot allows users to:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/artyomkorchagin/hhru-job-bot.git 
-cd hhru-job-bot
+git clone https://github.com/artyomkorchagin/hhru-tg-bot.git
+cd hhru-tg-bot
 ```
 
 ### 2. Set environment variables
@@ -46,6 +46,7 @@ HH_API_KEY=your_hh_client_secret
 ### 3. Build and run
 
 ```bash
+god mod tidy
 go build -o hhrujobsforyou
 ./hhrujobsforyou
 ```
