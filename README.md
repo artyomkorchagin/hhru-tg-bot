@@ -26,7 +26,7 @@ This bot allows users to:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/hhru-job-bot.git 
+git clone https://github.com/artyomkorchagin/hhru-job-bot.git 
 cd hhru-job-bot
 ```
 
@@ -35,7 +35,7 @@ cd hhru-job-bot
 Create a `.env` file:
 
 ```env
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+BOT=your_telegram_bot_token
 HH_API_KEY=your_hh_client_secret
 ```
 
